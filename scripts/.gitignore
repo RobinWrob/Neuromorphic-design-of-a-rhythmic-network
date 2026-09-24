@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+.venv/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Generated simulation data (reproduced via scripts/)
+*.csv
+results/data/*.csv
+plotdata/*.csv
+!results/data/.gitkeep
+!plotdata/.gitkeep
+!results/figures/.gitkeep
+
+# Local scratch and temporary files
+scratch/
+outputs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
