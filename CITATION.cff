@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or simulation framework in your research, please cite it as below."
-title: "Biophysical Simulation and Event-Based Analysis (eDF & ePRC) for Neuromorphic Node Networks"
+title: "Simulation and Event-Based Analysis (eDF & ePRC) for (Excitable) Neuromorphic Networks"
 authors:
   - family-names: "Wroblowski"
     given-names: "Robin"
@@ -18,3 +18,13 @@ keywords:
   - "ring networks"
   - "central pattern generator"
   - "conductance-based neuron models"
+
+# Link to the accompanying manuscript
+preferred-citation:
+  type: article
+  title: "Neuromorphic design of a rhythmic network"
+  authors:
+    - family-names: "Wroblowski"
+      given-names: "Robin"
+    - family-names: "Sepulchre"
+      given-names: "Rodolphe"
