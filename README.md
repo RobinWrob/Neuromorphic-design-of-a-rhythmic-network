@@ -6,8 +6,8 @@
 This repository contains the official simulation codebase and reproducible numerical experiments for the research paper submitted to *Neuromorphic Computing and Engineering* (NCE).
 
 The framework models single-node biophysical dynamics (fast sodium, slow potassium, leak, and A-type rebound currents), dynamic synaptic transmission, event-driven ring networks, and tools for design and analysis:
-- **Event Describing Functions (eDF)**: Characterizing steady-state onset delays $\delta(T)$.
-- **Event Phase Response Curves (ePRC)**: Characterizing timing shifts $\Delta t(t_p)$ induced by periodic synaptic events.
+- **Event Describing Functions (eDF)**: Characterizing steady-state onset delays $\Delta(T_{in})$.
+- **Event Phase Response Curves (ePRC)**: Characterizing timing shifts $\Pi(T_{in},\delta_p)$ induced by periodic synaptic events.
 - **Biomimetic Ring Networks**: Exploring event propagation, parametric heterogeneity, endogenous frequency modulation, and sensory entrainment (Arnold Tongues).
 
 ---
