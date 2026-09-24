@@ -1,0 +1,7 @@
+# Core scientific dependencies for NCE Neuromorphic Node Codebase
+numpy>=1.22
+scipy>=1.8
+pandas>=1.4
+matplotlib>=3.5
+numba>=0.55
+pyyaml>=6.0

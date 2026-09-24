@@ -1,0 +1,25 @@
+# Default Sweep Configurations
+edf_sweep:
+  dt: 0.0001
+  spike_threshold: 50.0
+  impulse_width: 0.1
+  impulse_amplitude: 50.0
+  period_min: 10.0
+  period_max: 100.0
+  n_periods: 50
+
+eprc_sweep:
+  dt: 0.001
+  spike_threshold: 30.0
+  pert_amplitude: 1.0
+  pert_width: 0.2
+  n_tp_samples: 100
+
+ring_network:
+  n_neurons: 5
+  dt: 0.01
+  t_end: 1400.0
+  spike_threshold: 30.0
+  pulse_start: 0.0
+  pulse_duration: 5.0
+  pulse_amplitude: -5.0

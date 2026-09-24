@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or simulation framework in your research, please cite it as below."
+title: "Biophysical Simulation and Event-Based Analysis (eDF & ePRC) for Neuromorphic Node Networks"
+authors:
+  - family-names: "Wroblowski"
+    given-names: "Robin"
+    affiliation: "KU Leuven"
+  - family-names: "Sepulchre"
+    given-names: "Rodolphe"
+    affiliation: "KU Leuven, University of Cambridge"
+version: 1.0.0
+date-released: 2026-09-24
+license: "MIT"
+keywords:
+  - "neuromorphic engineering"
+  - "event describing function"
+  - "event phase response curve"
+  - "ring networks"
+  - "central pattern generator"
+  - "conductance-based neuron models"

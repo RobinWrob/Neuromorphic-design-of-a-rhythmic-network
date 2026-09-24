@@ -1,0 +1,16 @@
+# Dynamic Synapse Model Parameters
+inhibitory:
+  tau_decay: 2.15      # Synaptic decay time constant (ms)
+  tau_rise: 0.1        # Synaptic rise time constant (ms)
+  g_max: 3.0           # Maximum synaptic conductance
+  e_rev: -20.0         # Reversal potential (mV)
+  threshold: 30.0      # Presynaptic threshold (mV)
+  syn_k: 0.1           # Sigmoidal activation slope
+
+excitatory:
+  tau_decay: 2.0       # Synaptic decay time constant (ms)
+  tau_rise: 0.1        # Synaptic rise time constant (ms)
+  g_max: 0.5           # Maximum synaptic conductance
+  e_rev: 65.0          # Reversal potential (mV)
+  threshold: 30.0      # Presynaptic threshold (mV)
+  syn_k: 0.1           # Sigmoidal activation slope

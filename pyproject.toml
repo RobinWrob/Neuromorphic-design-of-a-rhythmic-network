@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nce-neuromorphic"
+version = "1.0.0"
+description = "Simulation codebase and event-based analysis (eDF & ePRC) for neuromorphic node networks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Robin Wroblowski"},
+    {name = "Rodolphe Sepulchre"}
+]
+keywords = [
+    "neuromorphic engineering",
+    "event describing functions",
+    "event phase response curves",
+    "ring networks",
+    "central pattern generator",
+    "conductance-based neuron models",
+    "spiking neural networks"
+]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.8",
+    "pandas>=1.4",
+    "matplotlib>=3.5",
+    "numba>=0.55",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

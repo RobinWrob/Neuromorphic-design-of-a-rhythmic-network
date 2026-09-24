@@ -1,0 +1,41 @@
+# Consolidated Biophysical Parameters for Neuromorphic Node Model
+# Set g_a = 0.0 when A-type/H-type rebound current is not used.
+
+cm: 1.0                # Membrane capacitance (uF/cm^2)
+tau_s: 5.0             # Slow variable time constant (ms)
+input_gain: 1.0        # Synaptic input gain factor
+i_base: 0.0            # Baseline tonic current injection
+
+# Fast Sodium (Na) Current
+g_na: 50.0             # Conductance
+e_na: 100.0            # Reversal potential
+na_act_bias: 10.0      # Activation bias
+na_act_slope: 0.02     # Activation slope
+na_inact_bias: 30.0    # Inactivation bias
+na_inact_slope: 0.05   # Inactivation slope
+
+# Rebound Fast Sodium Current
+g_na_reb: 2.0          # Conductance
+e_na_reb: 100.0        # Reversal potential
+na_reb_act_bias: -10.0 # Activation bias
+na_reb_act_slope: 0.1  # Activation slope
+na_reb_inact_bias: -5.0 # Inactivation bias
+na_reb_inact_slope: 0.1 # Inactivation slope
+
+# Potassium (K) Current
+g_k: 1.0               # Conductance
+e_k: -20.0             # Reversal potential
+k_act_bias: 10.0       # Activation bias
+k_act_slope: 0.05      # Activation slope
+
+# Leak (L) Current
+g_l: 0.1               # Conductance
+e_l: 0.0               # Reversal potential
+
+# A-type / Rebound Potassium Current (g_a = 0.0 for simple neuron model)
+g_a: 0.0               # Conductance (set to 1.2 or non-zero for H-type / rebound node)
+e_a: -20.0             # Reversal potential
+a_act_bias: -15.0      # Activation bias
+a_act_slope: 0.1       # Activation slope
+a_inact_bias: -10.0    # Inactivation bias
+a_inact_slope: 0.15     # Inactivation slope
